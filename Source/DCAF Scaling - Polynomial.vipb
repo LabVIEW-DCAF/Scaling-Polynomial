@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-05-18 13:32:17" Modified_Date="2016-06-29 10:23:43" Creator="Matthew Pollock" Comments="" ID="e0f3c02727f7cf4b63fedcb6f44c60f4">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-05-18 13:32:17" Modified_Date="2016-06-29 15:54:15" Creator="Matthew Pollock" Comments="" ID="b6f6fdb879d0c8be10a112e74913ec98">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_DCAF_Scaling___Polynomial</Package_File_Name>
     <Library_Version>1.0.1.10</Library_Version>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>national_instruments_lib_dcaf_scaling &gt;=1.0.7.9</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
