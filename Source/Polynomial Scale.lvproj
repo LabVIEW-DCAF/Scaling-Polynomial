@@ -23,7 +23,6 @@
 		<Item Name="Polynomial Scale configuration.lvclass" Type="LVClass" URL="../module/configuration/Polynomial Scale configuration.lvclass"/>
 		<Item Name="Polynomial Scale editor node.lvclass" Type="LVClass" URL="../editor node/Polynomial Scale editor node.lvclass"/>
 		<Item Name="Polynomial Scale runtime.lvclass" Type="LVClass" URL="../module/execution/Polynomial Scale runtime.lvclass"/>
-		<Item Name="Polynomial Scale tests.lvlib" Type="Library" URL="../testing/Polynomial Scale tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">1</Property>
@@ -140,9 +139,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="add channel to configuration.vi" Type="VI" URL="../module/configuration/add channel to configuration.vi"/>
-			<Item Name="rename channel.vi" Type="VI" URL="../module/configuration/rename channel.vi"/>
-			<Item Name="set channel.vi" Type="VI" URL="../module/configuration/set channel.vi"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
