@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-05-18 13:32:17" Modified_Date="2016-10-03 16:46:41" Creator="Matthew Pollock" Comments="" ID="fc7a17617ee33589d987a652dd98eeb4">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-05-18 13:32:17" Modified_Date="2016-10-04 12:52:02" Creator="Matthew Pollock" Comments="" ID="478ea41f21d1cd7f96e27536b2ca61d2">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_scaling_polynomial</Package_File_Name>
     <Library_Version>1.0.2.10</Library_Version>
@@ -17,8 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>ni_lib_dcaf_scaling_framework &gt;= 1.0.8.21</External_Dependencies>
-      <Direct_Dependencies>ni_lib_dcaf_scaling_framework-1.0.8.21</Direct_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_scaling_framework &gt;=1.0.8.24</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
